@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 380px;
+            gap: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form action="server_insert.php" method="post">
+        <label for="name">Nome: </label>
+        <input type="text" name="name" id="name">
+        <label for="email">E-mail: </label>
+        <input type="text" name="email" id="email">
+        <label for="cpf">CPF: </label>
+        <input type="text" name="cpf" id="cpf">
+        <label for="#">Senha: </label>
+        <input type="password" name="#" id="#">
+        <label for="senha">Repetir senha: </label>
+        <input type="password" name="senha" id="senha">
+        <input type="submit" value="Enviar">
+    </form>
+    Já possui cadastro? Faça <a href="login.html">Login</a>!
+</body>
+</html>

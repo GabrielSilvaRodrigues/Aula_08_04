@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Form</title>
+</head>
+<body>
+
+    <h3>Envie Sua mensagem</h3>
+    <a href="login.html">Login</a>
+
+    <form action="server_post.php" method="post">
+        <label for="nome">Nome:</label> <!--label serve só para identificar o titulo-->
+        <input type="text" name="nome" id="nome">
+        <br>
+        <label for="email">Email:</label> <!--label serve só para identificar o titulo-->  
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="mensagem">Mensagem:</label> <!--label serve só para identificar o titulo-->
+        <br>
+        <textarea name="mensagem" id="mensagem" rows="15"></textarea> <!--area de texto com 15 linhas-->
+
+        <input type="submit" value="ENVIAR">
+    </form>
+
+</body>
+</html>
