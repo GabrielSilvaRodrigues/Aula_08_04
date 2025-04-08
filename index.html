@@ -7,20 +7,23 @@
     <title>Form</title>
 </head>
 <body>
-
+    <a href="login.html">Entrar</a>
+    <br>
+    <a href="register.html">Cadastrar-se</a>
+    <br>
     <h3>Envie Sua mensagem</h3>
     <a href="login.html">Login</a>
 
     <form action="server_post.php" method="post">
-        <label for="nome">Nome:</label> <!--label serve só para identificar o titulo-->
+        <label for="nome">Nome:</label> 
         <input type="text" name="nome" id="nome">
         <br>
-        <label for="email">Email:</label> <!--label serve só para identificar o titulo-->  
+        <label for="email">Email:</label>
         <input type="email" name="email" id="email">
         <br>
-        <label for="mensagem">Mensagem:</label> <!--label serve só para identificar o titulo-->
+        <label for="mensagem">Mensagem:</label>
         <br>
-        <textarea name="mensagem" id="mensagem" rows="15"></textarea> <!--area de texto com 15 linhas-->
+        <textarea name="mensagem" id="mensagem" rows="15"></textarea> 
 
         <input type="submit" value="ENVIAR">
     </form>
